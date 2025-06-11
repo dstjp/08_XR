@@ -21,11 +21,11 @@ AFRAME.registerComponent("info-panel", {
 				imgEl: document.querySelector("#jodMovieImage"),
 				url: "https://maybejod.github.io/webxr-type-shi/",
 			},
-			newCard1Button: {
+			mohButton: {
 				imgEl: document.querySelector("#jodMovieImage"),
 				url: "https://dstjp.github.io/a-frameTest/",
 			},
-			newCard2Button: {
+			sixtenButton: {
 				imgEl: document.querySelector("#jodMovieImage"),
 				url: "https://dstjp.github.io/a-frameTest/",
 			},

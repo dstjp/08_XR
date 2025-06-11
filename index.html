@@ -39,18 +39,10 @@
 				/>
 
 				<!-- Second Far Right Card Image -->
-				<img
-					id="newCard1Poster"
-					src="https://cdn.aframe.io/examples/ui/antonRocketPoster.jpg"
-					crossorigin="anonymous"
-				/>
+				<img id="mohPoster" src="" crossorigin="anonymous" />
 
 				<!-- Far Right Card Image -->
-				<img
-					id="newCard2Poster"
-					src="https://cdn.aframe.io/examples/ui/jodPoster.jpg"
-					crossorigin="anonymous"
-				/>
+				<img id="sixtenPoster" src="" crossorigin="anonymous" />
 
 				<!-- Border around cards, highlight, and reason why clickable -->
 				<a-mixin
@@ -151,21 +143,21 @@
 					</a-entity>
 
 					<a-entity
-						id="newCard1Button"
+						id="mohButton"
 						position="0.8 0 0"
 						mixin="frame"
 						class="raycastable menu-button"
 					>
-						<a-entity material="src: #newCard1Poster" mixin="poster"></a-entity>
+						<a-entity material="src: #mohPoster" mixin="poster"></a-entity>
 					</a-entity>
 
 					<a-entity
-						id="newCard2Button"
+						id="sixtenButton"
 						position="1.6 0 0"
 						mixin="frame"
 						class="raycastable menu-button"
 					>
-						<a-entity material="src: #newCard2Poster" mixin="poster"></a-entity>
+						<a-entity material="src: #sixtenPoster" mixin="poster"></a-entity>
 					</a-entity>
 				</a-entity>
 
@@ -199,15 +191,15 @@
 						visible="false"
 					></a-entity>
 					<a-entity
-						id="newCard1MovieImage"
+						id="mohMovieImage"
 						mixin="movieImage"
-						material="src: #newCard1Poster"
+						material="src: #mohPoster"
 						visible="false"
 					></a-entity>
 					<a-entity
-						id="newCard2MovieImage"
+						id="sixtenMovieImage"
 						mixin="movieImage"
-						material="src: #newCard2Poster"
+						material="src: #sixtenPoster"
 						visible="false"
 					></a-entity>
 					<a-entity
