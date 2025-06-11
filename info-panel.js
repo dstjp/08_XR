@@ -13,9 +13,9 @@ AFRAME.registerComponent("info-panel", {
 				imgEl: document.querySelector("#tetrisMovieImage"),
 				url: "https://dstjp.github.io/a-frameTest/",
 			},
-			kazetachinuButton: {
-				imgEl: document.querySelector("#kazetachinuMovieImage"),
-				url: "https://dstjp.github.io/a-frameTest/",
+			antonRocketButton: {
+				imgEl: document.querySelector("#antonRocketMovieImage"),
+				url: "https://ant-rocket-launch.glitch.me/",
 			},
 			ponyoButton: {
 				imgEl: document.querySelector("#ponyoMovieImage"),
