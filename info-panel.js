@@ -23,7 +23,7 @@ AFRAME.registerComponent("info-panel", {
 			},
 			mohButton: {
 				imgEl: document.querySelector("#mohMovieImage"),
-				url: "https://dstjp.github.io/a-frameTest/",
+				url: "https://paddystudios.github.io/Monaco/",
 			},
 			sixtenButton: {
 				imgEl: document.querySelector("#sixtenMovieImage"),
