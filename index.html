@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>Laser input UI</title>
+		<title>Team 6: Lebron</title>
 		<meta name="description" content="Laser input UI • A-Frame" />
 		<script src="https://unpkg.com/aframe-environment-component@1.5.x/dist/aframe-environment-component.min.js"></script>
 		<script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
@@ -33,8 +33,8 @@
 
 				<!-- Middle Card Image -->
 				<img
-					id="ponyoPoster"
-					src="https://cdn.aframe.io/examples/ui/ponyoPoster.jpg"
+					id="jodPoster"
+					src="./images/red-boxing-single-glove-box-fight-cartoon-drawing-7040816948795489wast0gjey.png"
 					crossorigin="anonymous"
 				/>
 
@@ -48,7 +48,7 @@
 				<!-- Far Right Card Image -->
 				<img
 					id="newCard2Poster"
-					src="https://cdn.aframe.io/examples/ui/ponyoPoster.jpg"
+					src="https://cdn.aframe.io/examples/ui/jodPoster.jpg"
 					crossorigin="anonymous"
 				/>
 
@@ -74,7 +74,7 @@
 				<a-mixin
 					id="movieImage"
 					geometry="primitive: plane; width: 1.5; height: 0.81"
-					material="src: #ponyo; shader: flat; transparent: true"
+					material="src: #jod; shader: flat; transparent: true"
 					position="0 0.495 0.002"
 				></a-mixin>
 			</a-assets>
@@ -142,12 +142,12 @@
 					</a-entity>
 
 					<a-entity
-						id="ponyoButton"
+						id="jodButton"
 						position="0 0 0"
 						mixin="frame"
 						class="raycastable menu-button"
 					>
-						<a-entity material="src: #ponyoPoster" mixin="poster"></a-entity>
+						<a-entity material="src: #jodPoster" mixin="poster"></a-entity>
 					</a-entity>
 
 					<a-entity
@@ -181,9 +181,9 @@
 					class="raycastable"
 				>
 					<a-entity
-						id="ponyoMovieImage"
+						id="jodMovieImage"
 						mixin="movieImage"
-						material="src: #ponyo"
+						material="src: #jod"
 						visible="false"
 					></a-entity>
 					<a-entity
@@ -213,7 +213,7 @@
 					<a-entity
 						id="movieTitle"
 						position="-0.68 -0.1 0"
-						text="shader: msdf; anchor: left; width: 1.5; font: https://cdn.aframe.io/examples/ui/Viga-Regular.json; color: white; value: Ponyo (2003)"
+						text="shader: msdf; anchor: left; width: 1.5; font: https://cdn.aframe.io/examples/ui/Viga-Regular.json; color: white; value: jod (2003)"
 					></a-entity>
 					<a-entity
 						id="movieDescription"

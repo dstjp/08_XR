@@ -8,7 +8,7 @@ AFRAME.registerComponent("info-panel", {
 		this.movieTitleEl = document.querySelector("#movieTitle");
 		this.movieDescriptionEl = document.querySelector("#movieDescription");
 
-		this.movieInfo = {
+		this.projectInfo = {
 			tetrisButton: {
 				imgEl: document.querySelector("#tetrisMovieImage"),
 				url: "https://dstjp.github.io/a-frameTest/",
@@ -17,16 +17,16 @@ AFRAME.registerComponent("info-panel", {
 				imgEl: document.querySelector("#antonRocketMovieImage"),
 				url: "https://ant-rocket-launch.glitch.me/",
 			},
-			ponyoButton: {
-				imgEl: document.querySelector("#ponyoMovieImage"),
-				url: "https://dstjp.github.io/a-frameTest/",
+			jodButton: {
+				imgEl: document.querySelector("#jodMovieImage"),
+				url: "https://maybejod.github.io/webxr-type-shi/",
 			},
 			newCard1Button: {
-				imgEl: document.querySelector("#ponyoMovieImage"),
+				imgEl: document.querySelector("#jodMovieImage"),
 				url: "https://dstjp.github.io/a-frameTest/",
 			},
 			newCard2Button: {
-				imgEl: document.querySelector("#ponyoMovieImage"),
+				imgEl: document.querySelector("#jodMovieImage"),
 				url: "https://dstjp.github.io/a-frameTest/",
 			},
 		};
@@ -45,10 +45,10 @@ AFRAME.registerComponent("info-panel", {
 	},
 
 	onMenuButtonClick: function (evt) {
-		var movieInfo = this.movieInfo[evt.currentTarget.id];
+		var projectInfo = this.projectInfo[evt.currentTarget.id];
 
-		if (movieInfo && movieInfo.url) {
-			window.open(movieInfo.url, "_blank");
+		if (projectInfo && projectInfo.url) {
+			window.open(projectInfo.url, "_blank");
 		}
 	},
 
