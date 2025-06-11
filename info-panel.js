@@ -22,12 +22,12 @@ AFRAME.registerComponent("info-panel", {
 				url: "https://maybejod.github.io/webxr-type-shi/",
 			},
 			mohButton: {
-				imgEl: document.querySelector("#jodMovieImage"),
+				imgEl: document.querySelector("#mohMovieImage"),
 				url: "https://dstjp.github.io/a-frameTest/",
 			},
 			sixtenButton: {
-				imgEl: document.querySelector("#jodMovieImage"),
-				url: "https://dstjp.github.io/a-frameTest/",
+				imgEl: document.querySelector("#sixtenMovieImage"),
+				url: "https://sigstus985.github.io/XR/",
 			},
 		};
 
